@@ -2,6 +2,7 @@ import sublime, sublime_plugin
 import re
 import time
 
+# Function for displaying a list of available tasks. Selecting a task from the list highlights it in the docuemtn.
 
 
 class AvailableTasksCommand(sublime_plugin.TextCommand):
